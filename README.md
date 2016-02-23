@@ -44,3 +44,5 @@ If you prefer, you can skip the badge and use a transparent pixel. To do so, sim
 - **What about referrals and other visitor information?** Unfortunately the static tracking pixel approach limits the information we can collect about the visit. For example, referral information can't be passed to the tracking pixel because we can't execute JavaScript. As a result, the available metrics are restricted to unique visitors, pageviews, and the User-Agent and IP address of the visitor.
 
 - **Do I have to use ga-beacon.appspot.com?** You can if you want to - it's free, but there are no capacity or availability promises. For best results, deploy your own instance directly on Google App Engine: clone this repository, change the project name, and deploy your own instance - easy as that. The project is under MIT license.
+- 
+![Codeship Status](https://codeship.com/projects/7759e090-bc9f-0133-274f-4610616512f7 /status?branch=master)
